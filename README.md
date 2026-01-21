@@ -1,2 +1,7 @@
-# Bank-Transactions-Fraud-Pattern-Detection-Using-Rule-Based-Analytics-Pandas-
-Rule-based fraud detection project using Python Pandas on bank transaction logs. Flagged suspicious patterns (high amount, velocity bursts, odd hours, location change, failed attempts) and created a fraud score with Low/Medium/High risk alerts and daily trend reports.
+Bank Transactions Fraud Detection (Rule-Based) using Python Pandas is a data analysis project focused on identifying suspicious banking transactions without using machine learning. The project works on transaction log data containing customer, merchant, amount, time, location, payment method, and transaction status details.
+
+The goal of this project is to simulate how fraud/risk teams detect suspicious activity using business rules and time-window analytics. Multiple fraud detection rules were implemented to flag abnormal behavior patterns such as high-value transactions, rapid transaction bursts (velocity fraud), repeated payments to the same merchant in a short time, late-night transactions, geo-location anomalies (country change), and failed attempts followed by success (card testing behavior).
+
+Using these fraud flags, a weighted fraud scoring model was created to assign a final fraud_score to each transaction. Based on this score, every transaction was categorized into Low, Medium, or High risk to prioritize alerts for investigation. Along with transaction-level risk classification, the project also generates daily fraud trend analysis including fraud rate percentage and highlights peak suspicious days.
+
+Finally, the project exports investigation-ready outputs such as fraud alerts (Medium + High risk), high-risk case reports, and summaries of top suspicious customers and merchants, making the project highly suitable for showcasing practical fraud monitoring and data analytics skills in a portfolio.
