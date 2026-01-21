@@ -1,0 +1,7 @@
+fraud_rule,trigger_count
+flag_odd_hour,11143
+flag_location_change,7829
+flag_high_amount,483
+flag_velocity_10min,273
+flag_same_merchant_5min,2
+flag_failed_then_success,0
